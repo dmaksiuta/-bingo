@@ -25,12 +25,16 @@
 		justify-content: space-between;
 		width: calc(100% - 20px);
 		border-radius: 6px;
-
 		background: $color-primary;
 		top: -40px;
-		bottom: auto;
 		left: 10px;
 		padding: 3px 10px;
+		@media (max-width:592px) {
+			top: 0;
+			width: 100%;
+			left: 0;
+			border-radius: 6px 6px 0 0;
+		}
 
 		span {
 			font-size: 12px;
