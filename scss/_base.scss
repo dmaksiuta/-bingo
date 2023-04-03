@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	font-family: $font;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.6rem;
+	overflow-x: hidden;
+	color: #000;
+}
+
+.container {
+	max-width: 102rem;
+	padding: 2rem;
+	margin-inline: auto;
+	padding-top: 14.4rem;
+	padding-bottom: 15rem;
+	display: grid;
+	gap: 50px;
+
+}

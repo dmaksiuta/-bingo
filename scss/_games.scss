@@ -1,0 +1,26 @@
+.games {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(16.9rem, 1fr));
+}
+
+.game {
+	cursor: pointer;
+	border-radius: 2rem;
+	aspect-ratio: 1;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 1rem 1rem .5rem rgba(79, 81, 100, 0.25);
+	transition: ease-in 0.1s;
+	transform: scale(1);
+	transition: $transition;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	img {
+		height: 100%;
+		object-fit: cover;
+	}
+}
