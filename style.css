@@ -252,9 +252,9 @@ body {
   display: inline-block;
   outline: 0;
   padding: 1.6rem 3.2rem;
-  background: #FF6935;
-  -webkit-box-shadow: 0 0.3rem 1rem #FF6935;
-          box-shadow: 0 0.3rem 1rem #FF6935;
+  background: #e29528;
+  -webkit-box-shadow: 0 0.3rem 1rem #e29528;
+          box-shadow: 0 0.3rem 1rem #e29528;
   border-radius: 5.5rem;
   color: #fff;
   font-weight: 600;
@@ -264,7 +264,7 @@ body {
   transition: 0.2s all ease-in-out;
 }
 .btn:hover {
-  background: #ff561c;
+  background: #d4881d;
 }
 
 .row {
@@ -506,13 +506,13 @@ body {
      object-fit: cover;
 }
 
-.action {
+.action, .counter {
   display: grid;
   gap: 2rem;
   place-items: center;
   font-size: 1.6rem;
   text-align: center;
 }
-.action span {
+.action span, .counter span {
   font-weight: 500;
 }
