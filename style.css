@@ -225,7 +225,7 @@ html {
 body {
   font-size: 1.6rem;
   overflow-x: hidden;
-  color: #000;
+  color: #303030;
 }
 
 .container {
@@ -239,7 +239,7 @@ body {
 }
 
 .card {
-  background: #FFFFFF;
+  background: #fff;
   -webkit-box-shadow: 0 2rem 3rem 1rem rgba(79, 81, 100, 0.25);
           box-shadow: 0 2rem 3rem 1rem rgba(79, 81, 100, 0.25);
   border-radius: 2rem;
@@ -256,7 +256,7 @@ body {
   -webkit-box-shadow: 0 0.3rem 1rem #e29528;
           box-shadow: 0 0.3rem 1rem #e29528;
   border-radius: 5.5rem;
-  color: #fff;
+  color: #303030;
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 1.2;

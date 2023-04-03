@@ -8,7 +8,7 @@
 
 
 .card {
-	background: #FFFFFF;
+	background: $white;
 	box-shadow: 0 2rem 3rem 1rem rgba(79, 81, 100, 0.25);
 	border-radius: 2rem;
 	padding: 3.2rem;
@@ -23,7 +23,7 @@
 	background: $color-btn;
 	box-shadow: 0 0.3rem 1rem $color-btn;
 	border-radius: 5.5rem;
-	color: #fff;
+	color: $color-text;
 	font-weight: 600;
 	font-size: 1.4rem;
 	line-height: 1.2;
