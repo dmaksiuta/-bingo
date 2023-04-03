@@ -23,13 +23,17 @@
 	z-index: 9;
 
 	&::before {
-		content: 'v1.0.1';
-		width: 100px;
+		content: 'v1.0.2';
 		position: fixed;
 		right: 20px;
 		top: 20px;
 		color: $color-primary;
 		z-index: 10;
+		background: #fff;
+		border-radius: 20px;
+		padding: 10px 20px;
+		font-weight: 700;
+		border: 2px solid $color-primary;
 	}
 }
 
@@ -281,7 +285,7 @@ body {
 
 .action {
 	display: grid;
-	gap: 15px;
+	gap: 20px;
 	place-items: center;
 	font-size: 16px;
 	text-align: center;
