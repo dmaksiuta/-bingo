@@ -8,27 +8,29 @@
 	cursor: pointer;
 	border-radius: 2rem;
 	aspect-ratio: 1;
-	overflow: hidden;
 	position: relative;
 	box-shadow: 0 1rem 1rem .5rem rgba(79, 81, 100, 0.25);
 	transition: ease-in 0.1s;
 	transform: scale(1);
 	transition: $transition;
+	display: flex;
+
 
 	&__jackpot {
 		position: absolute;
-		bottom: 5px;
-		left: 15px;
 		color: #fff;
 		display: flex;
-		text-shadow: 2px 2px 3px #000;
 		font-weight: 600;
 		align-items: center;
 		justify-content: space-between;
-		width: 100%;
-		left: 0;
-		padding: 10px;
+		width: calc(100% - 20px);
 		border-radius: 6px;
+
+		background: $color-primary;
+		top: -40px;
+		bottom: auto;
+		left: 10px;
+		padding: 3px 10px;
 
 		span {
 			font-size: 12px;
@@ -45,6 +47,7 @@
 
 	img {
 		height: 100%;
+		border-radius: 20px;
 		object-fit: cover;
 	}
 }
