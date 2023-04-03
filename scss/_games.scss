@@ -24,25 +24,24 @@
 		align-items: center;
 		justify-content: space-between;
 		background: #ff693599;
-		padding: 3px 10px;
+		padding: .3rem 1rem;
 		top: 0;
 		width: 100%;
 		left: 0;
-		border-radius: 20px 20px 0 0;
+		border-radius: 2rem 2rem 0 0;
 
-		@media (max-width:592px) {
+		@include bp-max(xs) {
 			top: 0;
 			width: 100%;
 			left: 0;
-			border-radius: 20px 20px 0 0;
 		}
 
 		span {
-			font-size: 12px;
+			font-size: 1.2rem;
 		}
 
 		span:last-child {
-			font-size: 18px;
+			font-size: 1.8rem;
 		}
 	}
 
@@ -52,7 +51,7 @@
 
 	img {
 		height: 100%;
-		border-radius: 20px;
+		border-radius: 2rem;
 		object-fit: cover;
 	}
 }

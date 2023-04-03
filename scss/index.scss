@@ -1,9 +1,9 @@
 @import 'utils/normalise';
 @import 'utils/vars';
+@import 'utils/media';
 @import 'utils/scroll';
 
 @import 'base';
-@import 'remove';
 
 
 
@@ -19,13 +19,13 @@
 	cursor: pointer;
 	display: inline-block;
 	outline: 0;
-	padding: 16px 32px;
+	padding: 1.6rem 3.2rem;
 	background: $color-primary;
-	box-shadow: 0px 3px 10px $color-primary;
-	border-radius: 55px;
+	box-shadow: 0 0.3rem 1rem $color-primary;
+	border-radius: 5.5rem;
 	color: #fff;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 1.2;
 	transition: $transition;
 
@@ -35,14 +35,14 @@
 }
 .row {
 	display: flex;
-	gap: 20px;
+	gap: 2rem;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
 	.card {
-		flex: 1 1 calc(50% - 20px);
+		flex: 1 1 calc(50% - 2rem);
 
-		@media (max-width:768px) {
+		@include bp-max(sm){
 			flex: 1 1 100%;
 		}
 	}
@@ -54,9 +54,9 @@
 
 .action {
 	display: grid;
-	gap: 20px;
+	gap: 2rem;
 	place-items: center;
-	font-size: 16px;
+	font-size: 1.6rem;
 	text-align: center;
 
 	span {
