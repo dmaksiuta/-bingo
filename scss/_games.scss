@@ -14,23 +14,28 @@
 	transition: ease-in 0.1s;
 	transform: scale(1);
 	transition: $transition;
+
 	&__jackpot {
 		position: absolute;
-		top: 15px;
+		bottom: 5px;
 		left: 15px;
 		color: #fff;
 		display: flex;
 		text-shadow: 2px 2px 3px #000;
-		flex-direction: column;
 		font-weight: 600;
-		// background: rgba(0,0,0,0.5);
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		left: 0;
 		padding: 10px;
 		border-radius: 6px;
+
 		span {
 			font-size: 12px;
 		}
+
 		span:last-child {
-			font-size: 21px;
+			font-size: 18px;
 		}
 	}
 
