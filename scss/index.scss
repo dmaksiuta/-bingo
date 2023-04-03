@@ -4,9 +4,7 @@
 
 @import 'base';
 @import 'remove';
-@import 'banner';
-@import 'countdown';
-@import 'games';
+
 
 
 .card {
@@ -49,6 +47,9 @@
 		}
 	}
 }
+@import 'banner';
+@import 'countdown';
+@import 'games';
 
 
 .action {
