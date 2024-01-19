@@ -1,0 +1,57 @@
+.games {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(16.9rem, 1fr));
+}
+
+.game {
+	cursor: pointer;
+	border-radius: 2rem;
+	aspect-ratio: 1;
+	position: relative;
+	box-shadow: 0 1rem 1rem .5rem rgba(79, 81, 100, 0.25);
+	transition: ease-in 0.1s;
+	transform: scale(1);
+	transition: $transition;
+	display: flex;
+
+
+	&__jackpot {
+		position: absolute;
+		color: $color-text-light;
+		display: flex;
+		font-weight: 600;
+		align-items: center;
+		justify-content: space-between;
+		background: rgba(205, 46, 105, 0.71);
+		padding: .3rem 1rem;
+		top: 0;
+		width: 100%;
+		left: 0;
+		border-radius: 2rem 2rem 0 0;
+
+		@include bp-max(xs) {
+			top: 0;
+			width: 100%;
+			left: 0;
+		}
+
+		span {
+			font-size: 1.2rem;
+		}
+
+		span:last-child {
+			font-size: 1.8rem;
+		}
+	}
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	img {
+		height: 100%;
+		border-radius: 2rem;
+		object-fit: cover;
+	}
+}
